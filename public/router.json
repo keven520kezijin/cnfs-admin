@@ -1,0 +1,18 @@
+{
+  "code": "200",
+  "data": [{
+    "path": "/messageManage",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "index",
+        "name": "MessageManage",
+        "meta": {
+          "title": "消息管理",
+          "icon": "dashboard",
+          "roles": ["admin", "editor"]
+        }
+      }
+    ]
+  }]
+}
